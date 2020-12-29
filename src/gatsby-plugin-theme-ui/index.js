@@ -76,16 +76,16 @@ const theme = merge(tailwind, {
     },
     blockquote: {
       marginLeft: 0,
+      paddingRight: `20%`,
       p: {
         fontSize: [3, 3, 3],
         lineHeight: `1.15`,
-        paddingRight: `20%`,
         fontWeight: `medium`,
         color: `textMuted`,
       },
     },
     h1: {
-      fontSize: [6, 7, 8],
+      fontSize: [7, 7, 8],
       mt: 2,
       mb: 3,
       textShadow: `rgba(255, 255, 255, 0.15) 0px 5px 35px`,
@@ -93,7 +93,8 @@ const theme = merge(tailwind, {
       color: `heading`,
     },
     h2: {
-      fontSize: [4, 5, 6],
+      fontSize: [4, 8, 8],
+      paddingRight: `45%`,
       mt: 2,
       mb: 2,
       color: `heading`,
