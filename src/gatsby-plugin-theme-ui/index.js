@@ -8,7 +8,7 @@ const theme = merge(tailwind, {
     primary: tailwind.colors.green[4],
     secondary: tailwind.colors.indigo[6],
     text: tailwind.colors.gray[1],
-    heading: `#ccffcc`,
+    heading: `#006600`,
     background: `#47d147`,
     divider: tailwind.colors.gray[8],
     textMuted: tailwind.colors.gray[2],
@@ -57,11 +57,11 @@ const theme = merge(tailwind, {
       color: `text`,
       backgroundColor: `background`,
       a: {
-        color: `primary`,
+        color: `heading`,
         textDecoration: `none`,
         transition: `all 0.3s ease-in-out`,
         "&:hover": {
-          color: `primary`,
+          color: `heading`,
           textDecoration: `none`,
         },
       },
@@ -75,15 +75,15 @@ const theme = merge(tailwind, {
       color: `text`,
     },
     blockquote: {
-      marginLeft: `10px`,
+      marginLeft: `40px`,
       paddingRight: `15%`,
-      paddingLeft: `20px`,
-      borderLeft: `3px solid #ccffcc`,
+      paddingLeft: `40px`,
+      borderLeft: `6px solid #80ff80`,
       p: {
         fontSize: [4, 4, 4],
         lineHeight: `1.15`,
         fontWeight: `medium`,
-        color: `textMuted`,
+        color: `#009900`,
       },
     },
     h1: {
@@ -140,9 +140,18 @@ const theme = merge(tailwind, {
   texts: {
     bigger: {
       p: {
-        fontSize: [2, 2, 2],
+        fontSize: [5, 5, 5],
         lineHeight: `1.15`,
-        paddingRight: `30%`,
+        paddingRight: `40%`,
+      },
+      a: {
+        color: `#e65c00`,
+        textDecoration: `none`,
+        transition: `all 0.3s ease-in-out`,
+        "&:hover": {
+          color: `heading`,
+          textDecoration: `none`,
+        },
       },
     },
   },
