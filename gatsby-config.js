@@ -13,7 +13,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `@lekoarts/gatsby-theme-cara`,
+      resolve: `@bl0ckpro/gat-theme-z`,
       // See the theme's README for all available options
       options: {},
     },

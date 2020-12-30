@@ -17,7 +17,7 @@
   </a>
 </p>
 
-Playful and Colorful One-Page portfolio featuring Parallax effects and animations. Using the Gatsby Theme [`@lekoarts/gatsby-theme-cara`](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-cara).
+Playful and Colorful One-Page portfolio featuring Parallax effects and animations. Using the Gatsby Theme [`@bl0ckpro/gat-theme-z`](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-cara).
 
 [**Demo Website**](https://cara.lekoarts.de)
 
@@ -60,13 +60,13 @@ If you want to learn more about how you can use a Gatsby starter that is configu
 
 **Important Note:** Please read the guide [Shadowing in Gatsby Themes](https://www.gatsbyjs.org/docs/themes/shadowing/) to understand how to customize the underlying theme!
 
-This starter creates a new Gatsby site that installs and configures the theme [`@lekoarts/gatsby-theme-cara`](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-cara).
+This starter creates a new Gatsby site that installs and configures the theme [`@bl0ckpro/gat-theme-z`](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-cara).
 
-Have a look at the theme's README and files to see what options are available and how you can shadow the various components including Theme UI. Generally speaking you will want to place your files into `src/@lekoarts/gatsby-theme-cara/` to shadow/override files. The Theme UI config can be configured by shadowing its files in `src/gatsby-plugin-theme-ui/`.
+Have a look at the theme's README and files to see what options are available and how you can shadow the various components including Theme UI. Generally speaking you will want to place your files into `src/@bl0ckpro/gat-theme-z/` to shadow/override files. The Theme UI config can be configured by shadowing its files in `src/gatsby-plugin-theme-ui/`.
 
 ### Changing content
 
-The content of this project is defined in four `.mdx` files inside the theme's `sections` folder. You can override the files `intro.mdx`, `projects.mdx`, `about.mdx` and `contact.mdx`. This starter has overriden the `intro.mdx` file as an example. Place the other files in the same `src/@lekoarts/gatsby-theme-cara/sections/` folder.
+The content of this project is defined in four `.mdx` files inside the theme's `sections` folder. You can override the files `intro.mdx`, `projects.mdx`, `about.mdx` and `contact.mdx`. This starter has overriden the `intro.mdx` file as an example. Place the other files in the same `src/@bl0ckpro/gat-theme-z/sections/` folder.
 
 You have to use the `<ProjectCard />` component inside `projects.mdx` to display the cards. Example:
 
