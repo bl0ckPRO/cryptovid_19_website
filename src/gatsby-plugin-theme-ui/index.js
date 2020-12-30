@@ -75,10 +75,12 @@ const theme = merge(tailwind, {
       color: `text`,
     },
     blockquote: {
-      marginLeft: 0,
-      paddingRight: `20%`,
+      marginLeft: `10px`,
+      paddingRight: `15%`,
+      paddingLeft: `20px`,
+      borderLeft: `3px solid #ccffcc`,
       p: {
-        fontSize: [3, 3, 3],
+        fontSize: [4, 4, 4],
         lineHeight: `1.15`,
         fontWeight: `medium`,
         color: `textMuted`,
@@ -138,9 +140,9 @@ const theme = merge(tailwind, {
   texts: {
     bigger: {
       p: {
-        fontSize: [3, 3, 3],
+        fontSize: [2, 2, 2],
         lineHeight: `1.15`,
-        paddingRight: `20%`,
+        paddingRight: `30%`,
       },
     },
   },
